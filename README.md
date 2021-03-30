@@ -46,7 +46,7 @@ print(sentence[::-2])
 <p><b>#running the function togethe final result number 1</b></br>while n != 1:<br>n = collatz(int(n))
 
 
-<p><b>Reference:</b></br>https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python<br>Used lecture
+<p><b>References:</b></br>https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python<br>Used lecture
 
 
 
@@ -73,7 +73,7 @@ import datetime
    
 <p><b>#if the date are saturday or sunday</b><br>else:<br>#if is not 0 = monday, 1 = tuesday, 3 = wednesday, 4 = thursday or 5 = friday<br>#print satuday and sunday<br>print("It is the weekend, yay!")</br>    
 
-<p><b>Reference:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>Used lecture on Tuesday program as a base for the problem.<br>
+<p><b>References:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>Used lecture on Tuesday program as a base for the problem.<br>
 
 ## 5-Squareroot.py week 06
 <p>1-Write a program that takes a positive floating-point number as input and outputs an approximation of its square root. You should create a function called <tt>sqrt</tt> that does this. I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x). This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods). I suggest that you look at the newton method at estimating square roots. 
@@ -99,7 +99,7 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#print the final calculation</b><br>print ("The square root of {} is approx. {}." .format(number, (round(cal3, 1,))))<br>
 
-<p><b>Reference:</b></br>https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD_fZWj7Tcs<br>Used lecture</br>
+<p><b>References:</b></br>https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD_fZWj7Tcs<br>Used lecture</br>
 
 
 ## 6-Es.py week 07
@@ -138,11 +138,62 @@ with open (filename, "r") as info:
 # print "e" = 116960                
 print (N)
 
+<p><b>References</b></br>https://programminghistorian.org/en/lessons/counting-frequencies<br>https://www.w3resource.com/python-exercises/string/python-data-type-string-exercise-12.php<br>lectures<br>
+
+
+
 ## 7-Plottask.py week 08
 <p>1- Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes. Some marks will be given for making the plot look nice..</p>
 
 ### Code
+<br>import numpy as np
+import matplotlib.pyplot as plt
 
+#first function x
+#range 0 to 4
+x = np.linspace(0,4)
+y=  x
+
+#naming the label for each function
+plt.plot(x,y, label= "f(x)= x")
+
+#second function x2^2
+# range 0 to 4
+x2= np.linspace(0,4)
+y2= x2**2
+
+#naming the label for each function
+plt.plot(x2,y2, label= "g(x)= $x^2$")
+
+#third function x3^3
+# range 0 to 4
+x3= np.linspace(0,4)
+y3= x3 **3
+
+#naming the label for each function
+plt.plot(x3, y3, label= "h(x)= $x^3$")
+
+#y-axis and x-axis
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+
+
+#this places the legend on the upper left of the plot
+plt.legend(loc="upper left")
+
+#title to plot
+plt.title("Function x")
+
+#adding grid
+plt.grid()
+
+#show plot
+plt.show()
+
+<p><b>References</b></br>
+#https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+#https://www.w3schools.com/python/matplotlib_pyplot.asp
+#lectures
 
 
 
