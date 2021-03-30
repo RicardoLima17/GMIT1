@@ -33,9 +33,39 @@ print(sentence[::-2])
 
 
 ## 3-Collatz.py week 04
-<p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+<p>1- Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.<br>At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.<br>Have the program end if the current value is one.</p>
 
 ### Code
+<p>#Defining the function<br>def collatz(number):<p/>
+
+ # If the number is negative print "Unfortunately this is not a positive Integer."
+ if number <= 0:
+       print("Unfortunately this is not a positive Integer.") 
+       quit() 
+       
+# looping through and if number found is even divide it by 2
+ elif number % 2 == 0:
+        print(number // 2)
+        return number // 2
+
+ elif number % 2 == 1:
+        result = 3 * number + 1
+        print(result)
+        return result
+       
+# Type the number
+n = input("Type a number: ")
+
+# running the function togethe final result number 1
+while n != 1:
+    n = collatz(int(n))
+
+
+# Reference:
+# https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python
+# Used lecture
+
+
 
 ## 4-Weekday.py week 05
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
