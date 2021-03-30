@@ -23,7 +23,7 @@
 <p>1- Write a program that takes asks a user to input a string and outputs every second letter in reverse order.</p>
 
 ### Code
-<p><b>type  The quick brown fox jumps over the lazy dog.</b><br>sentence = input("Type a sentence that you want reversed:")</p>
+<p><b>type:  The quick brown fox jumps over the lazy dog.</b><br>sentence = input("Type a sentence that you want reversed:")</p>
 
 <p><b>reverse a sentence every second letter in reverse order. [::-2] get 2 in 2 letters</b><br>
 print(sentence[::-2])
