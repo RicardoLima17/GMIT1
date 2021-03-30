@@ -10,11 +10,11 @@
 
 ### Code
 
-<p>*set variables weight and height and collect user input<br> weight = float(input("Enter your weight in kilograms: "))<br>height = float(input("Enter your height in centimeters: "))</p>
+<p><b>*set variables weight and height and collect user input<br> weight = float(input("Enter your weight in kilograms: "))<b><br>height = float(input("Enter your height in centimeters: "))</p>
 
-<p>*perform BMI calculation conversion of height cm to meters<br> height_meters = height / 100 <br> bmi = weight / (height_meters  ** 2)</p>
+<p><b>*perform BMI calculation conversion of height cm to meters<b><br> height_meters = height / 100 <br> bmi = weight / (height_meters  ** 2)</p>
 
-<p>*print formatting method may not work in older versions python<br> print('BMI is: {}.'.format(round(bmi, 2)))</p>
+<p><b>*print formatting method may not work in older versions python<b><br> print('BMI is: {}.'.format(round(bmi, 2)))</p>
 
 ### References:
 https://www.ramsayhealth.co.uk/weight-loss-surgery/bmi/bmi-formula<br>Lectures
