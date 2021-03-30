@@ -153,7 +153,7 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#naming the label for each function</b><br>plt.plot(x,y, label= "f(x)= x")<br>
 
-<p><b>#second function x2^2<b><br># range 0 to 4</b><br>x2= np.linspace(0,4)<br>y2= x2**2<br>
+<p><b>#second function x2^2<br># range 0 to 4</b><br>x2= np.linspace(0,4)<br>y2= x2**2<br>
 
 <p><b>#naming the label for each function</b><br>plt.plot(x2,y2, label= "g(x)= $x^2$")<br>
 
