@@ -8,20 +8,20 @@
 ## 1-BMI.py week 02
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
 <p>#set variables weight and height and collect user input
-weight = float(input("Enter your weight in kilograms: "))
-height = float(input("Enter your height in centimeters: "))
+<p>weight = float(input("Enter your weight in kilograms: "))</p>
+<p>height = float(input("Enter your height in centimeters: "))</p>
+</p>
+<p>perform BMI calculation conversion of height cm to meters</p>
+<p>height_meters = height / 100</p>
+<p>bmi = weight / (height_meters  ** 2)</p>
+</p>
+<p>print formatting method may not work in older versions python</p>
+<p>print('BMI is: {}.'.format(round(bmi, 2)))</p>
+<p></p>
 
-#perform BMI calculation conversion of height cm to meters
-height_meters = height / 100
-bmi = weight / (height_meters  ** 2)
-
-#print formatting method may not work in older versions python
-print('BMI is: {}.'.format(round(bmi, 2)))
-
-
-# References:
-# https://www.ramsayhealth.co.uk/weight-loss-surgery/bmi/bmi-formula
-# Lectures</p>
+## References:
+https://www.ramsayhealth.co.uk/weight-loss-surgery/bmi/bmi-formula</p>
+Lectures</p>
 
 ## 2-Secondstring.py week 03
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
