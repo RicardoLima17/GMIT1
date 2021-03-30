@@ -107,6 +107,37 @@ This is a more difficult task than some of the others, but will be marked equall
 
 ### Code
 
+# import collection to use Counter
+import collections
+filename = "moby-dick.txt"
+# open file to read
+with open (filename, "r") as info:
+    # this line count all characteres 
+    count = collections.Counter(info.read())
+        # variable to store count
+    value = (count)
+# print all counter in value
+print(value)
+   
+# Now we know "e" has 116960
+N = 0
+# open file to read
+with open (filename, "r") as info:
+    # new line 
+    for line in info:
+        # split variable line and store in new variable words
+        words = line.split()
+        # words store in new variable i
+        for i in words:
+            # create a new variable letter
+            for letter in i:
+                # letter "e"
+                if letter == "e":
+                    # count n = 0 and count once n + 1 if you use N + 2 count twice "e"
+                    N = N + 1
+# print "e" = 116960                
+print (N)
+
 ## 7-Plottask.py week 08
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
 
