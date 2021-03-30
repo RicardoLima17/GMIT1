@@ -117,6 +117,8 @@ This is a more difficult task than some of the others, but will be marked equall
 <p><b>#variable to store count</b><br> value = (count)<br>
        
 <p><b>#print all counter in value</b><br>print(value)<br></p>
+
+<p> </p>
    
 <p><b>#Now we know "e" has 116960</b><br>N = 0<br>
        
