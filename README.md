@@ -71,8 +71,7 @@ import datetime
 
 <p><b>#if the date is friday</b><br>elif dayOfweek == 4: # you can use @if dayOfweek == friday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
    
-<p><b>#if the date are saturday or sunday</b><br>
-<p><br>else:<br>#if is not 0 = monday, 1 = tuesday, 3 = wednesday, 4 = thursday or 5 = friday<br>#print satuday and sunday<br>print("It is the weekend, yay!")</br>    
+<b>#if the date are saturday or sunday</b><br><br>else:<br>#if is not 0 = monday, 1 = tuesday, 3 = wednesday, 4 = thursday or 5 = friday<br>#print satuday and sunday<br>print("It is the weekend, yay!")</br>    
 
 <p><b>Reference:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>Used lecture on Tuesday program as a base for the problem.<br>
 
