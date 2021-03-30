@@ -76,9 +76,31 @@ import datetime
 <p><b>Reference:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>Used lecture on Tuesday program as a base for the problem.<br>
 
 ## 5-Squareroot.py week 06
-<p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+<p>1-Write a program that takes a positive floating-point number as input and outputs an approximation of its square root. You should create a function called <tt>sqrt</tt> that does this. I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x). This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods). I suggest that you look at the newton method at estimating square roots. 
+This is a more difficult task than some of the others, but will be marked equally, so only do as much work on this as you feel comfortable.</p>
 
 ### Code
+
+<p><b>#variable number with input a positive number</b><br>number = float(input("Please enter a positive number: "))<br>
+
+<p><b>#conditional if bigger than 0 go ahead if not closed the programme</b><br>if number <= 0.0:</br>print("Unfortunately this is not a positive number.")</br>quit()</br>
+
+<p><b>#variables to use in your formula</b><br>a = 1/2<br>b = 5</br>
+
+<p><b>#first calculation with variables</b><br>cal1 = a*(number/b+b)<br>
+
+<p><b>#second calculation with variables</b><br>cal2 = a*(number/cal1+cal1)<br>
+
+<p><b>#last calculation with variables</b><br>cal3 = a*(number/cal2+cal2)<br>
+
+<p><b>#print first calculation with round 1 decimal</b><br>print (round(cal1, 1))<br>
+
+<p><b>#print second calculation with round 1 decimal</b><br>print (round(cal2, 1))<br>
+
+<p><b>#print the final calculation</b><br>print ("The square root of {} is approx. {}." .format(number, (round(cal3, 1,))))<br>
+
+<p><b>Reference:</b></br>https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD_fZWj7Tcs<br>Used lecture</br>
+
 
 ## 6-Es.py week 07
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
