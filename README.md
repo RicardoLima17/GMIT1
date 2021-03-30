@@ -99,7 +99,7 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#print the final calculation</b><br>print ("The square root of {} is approx. {}." .format(number, (round(cal3, 1,))))<br>
 
-<p><b>References:</b></br>https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD_fZWj7Tcs<br>Used lecture</br>
+<p><b>References:</b></br>https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD_fZWj7Tcs<br>lecture</br>
 
 
 ## 6-Es.py week 07
