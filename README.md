@@ -173,7 +173,7 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#plt.savefig('plottask.png')</br>
 
-<p><b>References</b><br>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html<br>https://www.w3schools.com/python/matplotlib_pyplot.asp<br>lectures<br>
-
+<p><b>References</b></br>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html<br>https://www.w3schools.com/python/matplotlib_pyplot.asp<br>lectures<br>
+<p><b>References</b></br>https://programminghistorian.org/en/lessons/counting-frequencies<br>https://www.w3resource.com/python-exercises/string/python-data-type-string-exercise-12.php<br>lectures<br>
 
 
