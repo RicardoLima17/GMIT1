@@ -10,17 +10,14 @@
 
 ### Code
 
-height = float(input("Please, enter your height (in cm): "))
-<p>weight = float(input("Now enter your weight in kilograms: "))
+<p>height = float(input("Please, enter your height (in cm): "))<br> weight = float(input("Now enter your weight in kilograms: "))</p>
 
 bmi = weight/((height/100)**2)
 
 print("Your BMI is "+ str(round(bmi,2)))
 
-<p>#set variables weight and height and collect user input
-weight = float(input("Enter your weight in kilograms: "))
-height = float(input("Enter your height in centimeters: "))
-<p></p>
+<p>#set variables weight and height and collect user input<br> weight = float(input("Enter your weight in kilograms: "))<br>height = float(input("Enter your height in centimeters: "))</p>
+
 perform BMI calculation conversion of height cm to meters
 height_meters = height / 100
 bmi = weight / (height_meters  ** 2)
