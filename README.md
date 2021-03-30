@@ -43,10 +43,10 @@ print(sentence[::-2])
 <p><b>#looping through and if number found is even divide it by 2</b><br> elif number % 2 == 0:<br>print(number // 2)<br>return number // 2<br> <br>elif number % 2 == 1:<br>result = 3 * number + 1<br>print(result)<br>return result
        
 <p><b>#Type the number</b><br>n = input("Type a number: ")</br>
-<p><b>#running the function togethe final result number 1</br>while n != 1:<br><br>n = collatz(int(n))
+<p><b>#running the function togethe final result number 1</b></br>while n != 1:<br>n = collatz(int(n))
 
 
-<p><b>Reference:</br>https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python<br>Used lecture
+<p><b>Reference:</b></br>https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python<br>Used lecture
 
 
 
