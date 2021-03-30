@@ -171,7 +171,7 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#show plot</b><br>plt.show()<br>
 
-<p><b>#plt.savefig('plottask.png')<br>
+<p><b>#plt.savefig('plottask.png')</br>
 
 <b>References</b></br>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html<br>#ttps://www.w3schools.com/python/matplotlib_pyplot.asp<br>lectures
 
