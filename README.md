@@ -29,7 +29,7 @@
 print(sentence[::-2])
 
 
-<b>References:</b><br> https://djangocentral.com/reverse-a-sentence/<br>lecture.
+<b>References:</b><br> https://djangocentral.com/reverse-a-sentence/<br>lectures
 
 
 ## 3-Collatz.py week 04
@@ -46,7 +46,7 @@ print(sentence[::-2])
 <p><b>#running the function togethe final result number 1</b></br>while n != 1:<br>n = collatz(int(n))
 
 
-<p><b>References:</b></br>https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python<br>lecture
+<p><b>References:</b></br>https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python<br>lectures
 
 
 
@@ -73,7 +73,7 @@ import datetime
    
 <p><b>#if the date are saturday or sunday</b><br>else:<br>#if is not 0 = monday, 1 = tuesday, 3 = wednesday, 4 = thursday or 5 = friday<br>#print satuday and sunday<br>print("It is the weekend, yay!")</br>    
 
-<p><b>References:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>lecture.<br>
+<p><b>References:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>lectures.<br>
 
 ## 5-Squareroot.py week 06
 <p>1-Write a program that takes a positive floating-point number as input and outputs an approximation of its square root. You should create a function called <tt>sqrt</tt> that does this. I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x). This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods). I suggest that you look at the newton method at estimating square roots. 
@@ -99,7 +99,7 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#print the final calculation</b><br>print ("The square root of {} is approx. {}." .format(number, (round(cal3, 1,))))<br>
 
-<p><b>References:</b></br>https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD_fZWj7Tcs<br>lecture</br>
+<p><b>References:</b></br>https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD_fZWj7Tcs<br>lectures</br>
 
 
 ## 6-Es.py week 07
