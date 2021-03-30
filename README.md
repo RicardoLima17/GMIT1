@@ -40,21 +40,13 @@ print(sentence[::-2])
 
 <p><b>#If the number is negative print "Unfortunately this is not a positive Integer."</b><br> if number <= 0:<br>print("Unfortunately this is not a positive Integer.")<br>   quit() 
        
-<p><b>#looping through and if number found is even divide it by 2</b><br> elif number % 2 == 0:<br>print(number // 2)<br>return number // 2</p>
-
- <br>elif number % 2 == 1:<br>result = 3 * number + 1<br>print(result)<br>return result
+<p><b>#looping through and if number found is even divide it by 2</b><br> elif number % 2 == 0:<br>print(number // 2)<br>return number // 2<br> <br>elif number % 2 == 1:<br>result = 3 * number + 1<br>print(result)<br>return result
        
-# Type the number
-n = input("Type a number: ")
-
-# running the function togethe final result number 1
-while n != 1:
-    n = collatz(int(n))
+<p><b>#Type the number</b><br>n = input("Type a number: ")</br>
+<p><b>#running the function togethe final result number 1<br>while n != 1:<br><br>n = collatz(int(n))
 
 
-# Reference:
-# https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python
-# Used lecture
+<p><b>Reference:<br>https://stackoverflow.com/questions/45990261/implementing-the-collatz-function-using-python<br>Used lecture
 
 
 
