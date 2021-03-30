@@ -151,15 +151,15 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#first function </b><br><b>#range 0 to 4</b><br>x = np.linspace(0,4)<br>y= x<br>
 
-<p><b>#naming the label for first function</b><br>plt.plot(x,y, label= "f(x)= x")<br>
+<p><b>#label for first function</b><br>plt.plot(x,y, label= "f(x)= x")<br>
 
 <p><b>#second function x2^2<br># range 0 to 4</b><br>x2= np.linspace(0,4)<br>y2= x2**2<br>
 
-<p><b>#naming the label for second function</b><br>plt.plot(x2,y2, label= "g(x)= $x^2$")<br>
+<p><b>#label for second function</b><br>plt.plot(x2,y2, label= "g(x)= $x^2$")<br>
 
-<p><b>#third function x3^3<b><br># range 0 to 4</b><br>x3= np.linspace(0,4)<br>y3= x3 **3<br>
+<p><b>#third function x3^3</b><br># range 0 to 4</b><br>x3= np.linspace(0,4)<br>y3= x3 **3<br>
 
-<p><b>#naming the label for third function</b><br>plt.plot(x3, y3, label= "h(x)= $x^3$")<br>
+<p><b>#label for third function</b><br>plt.plot(x3, y3, label= "h(x)= $x^3$")<br>
 
 <p><b>#y-axis and x-axis</b><br>plt.xlabel("x-axis")<br>plt.ylabel("y-axis")<br>
 
