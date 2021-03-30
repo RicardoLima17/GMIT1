@@ -149,8 +149,7 @@ This is a more difficult task than some of the others, but will be marked equall
 ### Code
 <p><b>import numpy as np</b><br>import matplotlib.pyplot as plt<br>
 
-<p><b>#first function </b><br>
-<p><b>#range 0 to 4</b><br>x = np.linspace(0,4)<br>y= x<br>
+<p><b>#first function </b><br><b>#range 0 to 4</b><br>x = np.linspace(0,4)<br>y= x<br>
 
 <p><b>#naming the label for each function</b><br>plt.plot(x,y, label= "f(x)= x")<br>
 
