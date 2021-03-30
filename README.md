@@ -15,7 +15,7 @@
 
 <p><b>#print formatting method may not work in older versions python</b><br> print('BMI is: {}.'.format(round(bmi, 2)))</p>
 
-References:<br>https://www.ramsayhealth.co.uk/weight-loss-surgery/bmi/bmi-formula<br>Lectures
+<b>References:</b><br>https://www.ramsayhealth.co.uk/weight-loss-surgery/bmi/bmi-formula<br>Lectures
 
 
 
