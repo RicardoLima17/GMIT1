@@ -20,9 +20,17 @@
 
 
 ## 2-Secondstring.py week 03
-<p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+<p>1- Write a program that takes asks a user to input a string and outputs every second letter in reverse order.</p>
 
 ### Code
+<p><b>type  The quick brown fox jumps over the lazy dog.</b><br>sentence = input("Type a sentence that you want reversed:")</p>
+
+<p><b>reverse a sentence every second letter in reverse order. [::-2] get 2 in 2 letters</b><br>
+print(sentence[::-2])
+
+
+<b>References:</b><br> https://djangocentral.com/reverse-a-sentence/<br>Used lecture on Tuesday program as a base for the problem.
+
 
 ## 3-Collatz.py week 04
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
