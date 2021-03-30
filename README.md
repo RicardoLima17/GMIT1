@@ -5,6 +5,6 @@
 
 
 
-## 1-bmi.py
+## 1-bmi.py week 02
 <p>1- Week02, in this task use python to calculator the body mass index BMI</p>
 <p>Python skills</p>
