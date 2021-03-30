@@ -118,10 +118,10 @@ This is a more difficult task than some of the others, but will be marked equall
        
 <p><b>#print all counter in value</b><br>print(value)<br></p>
 
-<p> </p>
-   
+
+<p> --------------------------------------------------------------------------------------------------------------------------------- </p>
 <p><b>#Now we know "e" has 116960</b><br>N = 0<br>
-       
+            
 <p><b>#open file to read</b><br>with open (filename, "r") as info:<br>
        
 <p><b>#new line</b><br>for line in info:<br>
@@ -147,36 +147,21 @@ This is a more difficult task than some of the others, but will be marked equall
 <p>1- Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes. Some marks will be given for making the plot look nice..</p>
 
 ### Code
-<br>import numpy as np
-import matplotlib.pyplot as plt
+<p><b>import numpy as np</b><br>import matplotlib.pyplot as plt<br>
 
-#first function x
-#range 0 to 4
-x = np.linspace(0,4)
-y=  x
+<p><b>#first function <b><br>#range 0 to 4</b><br>x = np.linspace(0,4)<br>y= x<br>
 
-#naming the label for each function
-plt.plot(x,y, label= "f(x)= x")
+<p><b>#naming the label for each function</b><br>plt.plot(x,y, label= "f(x)= x")<br>
 
-#second function x2^2
-# range 0 to 4
-x2= np.linspace(0,4)
-y2= x2**2
+<p><b>#second function x2^2<b><br># range 0 to 4</b><br>x2= np.linspace(0,4)<br>y2= x2**2<br>
 
-#naming the label for each function
-plt.plot(x2,y2, label= "g(x)= $x^2$")
+<p><b>#naming the label for each function</b><br>plt.plot(x2,y2, label= "g(x)= $x^2$")<br>
 
-#third function x3^3
-# range 0 to 4
-x3= np.linspace(0,4)
-y3= x3 **3
+<p><b>#third function x3^3<b><br># range 0 to 4</b><br>x3= np.linspace(0,4)<br>y3= x3 **3<br>
 
-#naming the label for each function
-plt.plot(x3, y3, label= "h(x)= $x^3$")
+<p><b>#naming the label for each function</b><br>plt.plot(x3, y3, label= "h(x)= $x^3$")<br>
 
-#y-axis and x-axis
-plt.xlabel("x-axis")
-plt.ylabel("y-axis")
+<p><b>#y-axis and x-axis</b><br>plt.xlabel("x-axis")<br>plt.ylabel("y-axis")<br>
 
 
 #this places the legend on the upper left of the plot
@@ -190,6 +175,8 @@ plt.grid()
 
 #show plot
 plt.show()
+
+#plt.savefig('plottask.png')
 
 <p><b>References</b></br>
 #https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
