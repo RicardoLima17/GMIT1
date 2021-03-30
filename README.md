@@ -36,13 +36,13 @@ print(sentence[::-2])
 <p>1- Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.<br>At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.<br>Have the program end if the current value is one.</p>
 
 ### Code
-<p><b>#Defining the function</b><br>def collatz(number):<p/>
+<p><b>#defining the function</b><br>def collatz(number):<p/>
 
 <p><b>#If the number is negative print "Unfortunately this is not a positive Integer."</b><br> if number <= 0:<br>print("Unfortunately this is not a positive Integer.")<br>   quit() 
        
 <p><b>#looping through and if number found is even divide it by 2</b><br> elif number % 2 == 0:<br>print(number // 2)<br>return number // 2<br> <br>elif number % 2 == 1:<br>result = 3 * number + 1<br>print(result)<br>return result
        
-<p><b>#Type the number</b><br>n = input("Type a number: ")</br>
+<p><b>#type the number</b><br>n = input("Type a number: ")</br>
 <p><b>#running the function togethe final result number 1</b></br>while n != 1:<br>n = collatz(int(n))
 
 
@@ -51,9 +51,48 @@ print(sentence[::-2])
 
 
 ## 4-Weekday.py week 05
-<p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+<p>1- Write a program that outputs whether or not today is a weekday.(You will need to search the web to find how you work out what day it is) An example of running this program on a Thursday is given below.</p>
 
 ### Code
+
+import datetime
+
+
+dayOfweek =datetime.datetime.today().weekday()
+#print the date today 
+print (dayOfweek)
+
+#if the date is monday
+if dayOfweek == 0: # you can use @if dayOfweek == monday:
+#print this message below
+    print ("Yes, unfortunately today is a weekday.")
+
+#if the date is tuesday
+elif dayOfweek == 1: # you can use @if dayOfweek == tuesday:
+#print this message below    
+    print ("Yes, unfortunately today is a weekday.")
+
+#if the date is wednesday
+elif dayOfweek == 2: # you can use @if dayOfweek == wednesday:
+#print this message below    
+    print ("Yes, unfortunately today is a weekday.")
+
+#if the date is thursday
+elif dayOfweek == 3: # you can use @if dayOfweek == thursday:
+#print this message below    
+    print ("Yes, unfortunately today is a weekday.")
+
+#if the date is friday
+elif dayOfweek == 4: # you can use @if dayOfweek == friday:
+#print this message below    
+    print ("Yes, unfortunately today is a weekday.")
+       
+else:
+#if is not 0 = monday, 1 = tuesday, 3 = wednesday, 4 = thursday or 5 = friday    
+#print satuday and sunday    
+    print("It is the weekend, yay!")    
+
+<p><b>Reference:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>Used lecture on Tuesday program as a base for the problem.<br>
 
 ## 5-Squareroot.py week 06
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
