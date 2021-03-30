@@ -10,7 +10,7 @@
 
 ### Code
 
-<p><b>*set variables weight and height and collect user input<br> weight = float(input("Enter your weight in kilograms: "))<b><br>height = float(input("Enter your height in centimeters: "))</p>
+<p><b>*set variables weight and height and collect user input<b><br> weight = float(input("Enter your weight in kilograms: "))<br>height = float(input("Enter your height in centimeters: "))</p>
 
 <p><b>*perform BMI calculation conversion of height cm to meters<b><br> height_meters = height / 100 <br> bmi = weight / (height_meters  ** 2)</p>
 
