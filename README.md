@@ -61,15 +61,9 @@ import datetime
 
 <p><b>#print the date today</b><br>print (dayOfweek)</br>
 
-#if the date is monday
-if dayOfweek == 0: # you can use @if dayOfweek == monday:
-#print this message below
-    print ("Yes, unfortunately today is a weekday.")
+<p><b>#if the date is monday</b><br>if dayOfweek == 0: # you can use @if dayOfweek == monday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
 
-#if the date is tuesday
-elif dayOfweek == 1: # you can use @if dayOfweek == tuesday:
-#print this message below    
-    print ("Yes, unfortunately today is a weekday.")
+<p><b#if the date is tuesday</b><br>elif dayOfweek == 1: # you can use @if dayOfweek == tuesday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
 
 #if the date is wednesday
 elif dayOfweek == 2: # you can use @if dayOfweek == wednesday:
