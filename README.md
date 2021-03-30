@@ -175,7 +175,6 @@ This is a more difficult task than some of the others, but will be marked equall
 
 ![plottask](https://user-images.githubusercontent.com/77755223/113066689-df360e00-91b2-11eb-8c0f-aef70d255ccc.png)
 
-
 <p><b>References</b></br>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html<br>https://www.w3schools.com/python/matplotlib_pyplot.asp<br>lectures<br>
 
 
