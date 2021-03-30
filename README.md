@@ -118,24 +118,24 @@ This is a more difficult task than some of the others, but will be marked equall
        
 <p><b>#print all counter in value</b><br>print(value)<br></p>
    
-#Now we know "e" has 116960
-N = 0
-# open file to read
-with open (filename, "r") as info:
-    # new line 
-    for line in info:
-        # split variable line and store in new variable words
-        words = line.split()
-        # words store in new variable i
-        for i in words:
-            # create a new variable letter
-            for letter in i:
-                # letter "e"
-                if letter == "e":
-                    # count n = 0 and count once n + 1 if you use N + 2 count twice "e"
-                    N = N + 1
-# print "e" = 116960                
-print (N)
+<p><b>#Now we know "e" has 116960</b><br>N = 0<br>
+       
+<p><b>#open file to read</b><br>with open (filename, "r") as info:<br>
+       
+<p><b>#new line</b><br>for line in info:<br>
+
+<p><b>#split variable line and store in new variable words</b><br>words = line.split()<br>
+
+<p><b>#words store in new variable i</b><br>for i in words:<br>
+
+<p><b>#create a new variable letter</b><br>for letter in i:<br>
+
+<p><b>#letter "e"</b><br>if letter == "e":<br>
+
+<p><b>#count n = 0 and count once n + 1 if you use N + 2 count twice "e"</b><br>N = N + 1<br>
+
+<p><b>#print "e" = 116960</b><br>print (N)<br>    
+
 
 <p><b>References</b></br>https://programminghistorian.org/en/lessons/counting-frequencies<br>https://www.w3resource.com/python-exercises/string/python-data-type-string-exercise-12.php<br>lectures<br>
 
