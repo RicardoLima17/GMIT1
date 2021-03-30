@@ -63,27 +63,15 @@ import datetime
 
 <p><b>#if the date is monday</b><br>if dayOfweek == 0: # you can use @if dayOfweek == monday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
 
-<p><b#if the date is tuesday</b><br>elif dayOfweek == 1: # you can use @if dayOfweek == tuesday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
+<p><b>#if the date is tuesday</b><br>elif dayOfweek == 1: # you can use @if dayOfweek == tuesday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
 
-#if the date is wednesday
-elif dayOfweek == 2: # you can use @if dayOfweek == wednesday:
-#print this message below    
-    print ("Yes, unfortunately today is a weekday.")
+<p><b>#if the date is wednesday</b><br>elif dayOfweek == 2: # you can use @if dayOfweek == wednesday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
 
-#if the date is thursday
-elif dayOfweek == 3: # you can use @if dayOfweek == thursday:
-#print this message below    
-    print ("Yes, unfortunately today is a weekday.")
+<p><b>#if the date is thursday</b><br>elif dayOfweek == 3: # you can use @if dayOfweek == thursday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
 
-#if the date is friday
-elif dayOfweek == 4: # you can use @if dayOfweek == friday:
-#print this message below    
-    print ("Yes, unfortunately today is a weekday.")
+<p><b>#if the date is friday</b><br>elif dayOfweek == 4: # you can use @if dayOfweek == friday:<br>#print this message below<br>print ("Yes, unfortunately today is a weekday.")</br>
        
-else:
-#if is not 0 = monday, 1 = tuesday, 3 = wednesday, 4 = thursday or 5 = friday    
-#print satuday and sunday    
-    print("It is the weekend, yay!")    
+<br>else:<br>#if is not 0 = monday, 1 = tuesday, 3 = wednesday, 4 = thursday or 5 = friday<br>#print satuday and sunday<br>print("It is the weekend, yay!")</br>    
 
 <p><b>Reference:</b></br>https://www.w3schools.com/python/python_datetime.asp<br>Used lecture on Tuesday program as a base for the problem.<br>
 
