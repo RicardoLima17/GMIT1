@@ -139,7 +139,7 @@ with open (filename, "r") as info:
 print (N)
 
 ## 7-Plottask.py week 08
-<p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+<p>1- Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes. Some marks will be given for making the plot look nice..</p>
 
 ### Code
 
