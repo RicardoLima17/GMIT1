@@ -15,6 +15,7 @@ with open (filename, "r") as info:
 # print all counter in value
 print(value)
    
+    
 # Now we know "e" has 116960
 N = 0
 # open file to read
@@ -33,6 +34,7 @@ with open (filename, "r") as info:
                     N = N + 1
 # print "e" = 116960                
 print (N)
+
 
 # References:
 #https://www.pythontutorial.net/python-basics/python-read-text-file/
