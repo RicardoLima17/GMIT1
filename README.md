@@ -110,14 +110,13 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#import collection to use Counter</b><br>import collections<br>filename = "moby-dick.txt"<br>
        
-<p><b>#open file to read<p><b>with open (filename, "r") as info:<b>
+<p><b>#open file to read</b><br>with open (filename, "r") as info:<br>
        
-    #this line count all characteres 
-    count = collections.Counter(info.read())
-        # variable to store count
-    value = (count)
-# print all counter in value
-print(value)
+<p><b>#this line count all characteres</b><br>count = collections.Counter(info.read())<br>
+       
+<p><b>#variable to store count</b><br> value = (count)<br>
+       
+<p><b>#print all counter in value</b><br>print(value)<br>
    
 # Now we know "e" has 116960
 N = 0
