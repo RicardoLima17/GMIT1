@@ -103,7 +103,7 @@ This is a more difficult task than some of the others, but will be marked equall
 
 
 ## 6-Es.py week 07
-<p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+<p>1- Write a program that reads in a text file and outputs the number of e's it contains.The program should take the filename from an argument on the command line.</p>
 
 ### Code
 
