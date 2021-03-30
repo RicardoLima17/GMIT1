@@ -36,12 +36,9 @@ print(sentence[::-2])
 <p>1- Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.<br>At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.<br>Have the program end if the current value is one.</p>
 
 ### Code
-<p><b>#Defining the function<b/><br>def collatz(number):<p/>
+<p><b>#Defining the function</b><br>def collatz(number):<p/>
 
- # If the number is negative print "Unfortunately this is not a positive Integer."
- if number <= 0:
-       print("Unfortunately this is not a positive Integer.") 
-       quit() 
+<p><b>#If the number is negative print "Unfortunately this is not a positive Integer."</b><br> if number <= 0:<br>print("Unfortunately this is not a positive Integer.")<br>   quit() 
        
 # looping through and if number found is even divide it by 2
  elif number % 2 == 0:
