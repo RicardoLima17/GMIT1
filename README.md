@@ -163,25 +163,17 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#y-axis and x-axis</b><br>plt.xlabel("x-axis")<br>plt.ylabel("y-axis")<br>
 
+<p><b>#this places the legend on the upper left of the plot</b><br>plt.legend(loc="upper left")<br>
 
-#this places the legend on the upper left of the plot
-plt.legend(loc="upper left")
+<p><b>#title to plot</b><br>plt.title("Function x")<br>
 
-#title to plot
-plt.title("Function x")
+<p><b>#adding grid</b><br>plt.grid()<br>
 
-#adding grid
-plt.grid()
+<p><b>#show plot</b><br>plt.show()<br>
 
-#show plot
-plt.show()
+<p><b>#plt.savefig('plottask.png')<br>
 
-#plt.savefig('plottask.png')
-
-<p><b>References</b></br>
-#https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
-#https://www.w3schools.com/python/matplotlib_pyplot.asp
-#lectures
+<p><b>References</b></br>#https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html<br>#https://www.w3schools.com/python/matplotlib_pyplot.asp<br.<br>#lectures</br>
 
 
 
