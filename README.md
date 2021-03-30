@@ -20,7 +20,7 @@
 
 
 ## 2-Secondstring.py week 03
-<p>1- Write a program that takes asks a user to input a string and outputs every second letter in reverse order.</p>
+<p>1- Write a program that takes asks a user to input a string and outputs every second letter in reverse order.<br>Reverse() is an inbuilt method in Python programming language that reverses objects of list in place. Returns: The reverse() method does not return any value but reverse the given object from the list.</p>
 
 ### Code
 <p><b>#type:  The quick brown fox jumps over the lazy dog.</b><br>sentence = input("Type a sentence that you want reversed:")</p>
@@ -40,15 +40,9 @@ print(sentence[::-2])
 
 <p><b>#If the number is negative print "Unfortunately this is not a positive Integer."</b><br> if number <= 0:<br>print("Unfortunately this is not a positive Integer.")<br>   quit() 
        
-# looping through and if number found is even divide it by 2
- elif number % 2 == 0:
-        print(number // 2)
-        return number // 2
+<p><b>#looping through and if number found is even divide it by 2</b><br> elif number % 2 == 0:<br>print(number // 2)<br>return number // 2</p>
 
- elif number % 2 == 1:
-        result = 3 * number + 1
-        print(result)
-        return result
+ <br>elif number % 2 == 1:<br>result = 3 * number + 1<br>print(result)<br>return result
        
 # Type the number
 n = input("Type a number: ")
