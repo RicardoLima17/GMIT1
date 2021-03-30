@@ -57,10 +57,9 @@ print(sentence[::-2])
 
 import datetime
 
+<p><b>#function</b><br>dayOfweek =datetime.datetime.today().weekday()</br>
 
-dayOfweek =datetime.datetime.today().weekday()
-#print the date today 
-print (dayOfweek)
+<p><b>#print the date today</b><br>print (dayOfweek)</br>
 
 #if the date is monday
 if dayOfweek == 0: # you can use @if dayOfweek == monday:
