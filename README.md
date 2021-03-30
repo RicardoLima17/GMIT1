@@ -110,9 +110,9 @@ This is a more difficult task than some of the others, but will be marked equall
 
 <p><b>#import collection to use Counter</b><br>import collections<br>filename = "moby-dick.txt"<br>
        
-<p><b>#open file to read<p><b>
-with open (filename, "r") as info:
-    # this line count all characteres 
+<p><b>#open file to read<p><b>with open (filename, "r") as info:<b>
+       
+    #this line count all characteres 
     count = collections.Counter(info.read())
         # variable to store count
     value = (count)
