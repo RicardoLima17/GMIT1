@@ -38,17 +38,29 @@ Lectures
 ## 2-Secondstring.py week 03
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
 
+### Code
+
 ## 3-Collatz.py week 04
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+
+### Code
 
 ## 4-Weekday.py week 05
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
 
+### Code
+
 ## 5-Squareroot.py week 06
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+
+### Code
 
 ## 6-Es.py week 07
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
 
+### Code
+
 ## 7-Plottask.py week 08
 <p>1- Write a program that calculates somebody’s Body Mass Index (BMI) The inputs are the person's height in centimetres and weight in kilograms. The output is their weight divided by their height in metres squared.</p>
+
+### Code
