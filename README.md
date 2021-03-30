@@ -116,9 +116,9 @@ This is a more difficult task than some of the others, but will be marked equall
        
 <p><b>#variable to store count</b><br> value = (count)<br>
        
-<p><b>#print all counter in value</b><br>print(value)<br>
+<p><b>#print all counter in value</b><br>print(value)<br></p>
    
-# Now we know "e" has 116960
+#Now we know "e" has 116960
 N = 0
 # open file to read
 with open (filename, "r") as info:
