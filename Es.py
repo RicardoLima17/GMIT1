@@ -41,4 +41,5 @@ print (N)
 #https://www.w3schools.com/python/python_file_open.asp
 #https://www.sanfoundry.com/python-program-read-file-counts-number/
 # Used lecture
+
 © 2021 GitHub, Inc.
